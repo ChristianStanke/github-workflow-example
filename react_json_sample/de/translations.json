@@ -1,5 +1,8 @@
 {
   "sample_id_1": "Hallo",
   "sample_id_2": "Wie geht es dir?",
-  "sample_id_3": "Tschüss"
+  "sample_id_3": "Auf Wiedersehen",
+  "sample_id_4": "Guten Morgen",
+  "sample_id_5": "Guten Abend",
+  "sample_id_6": "Schönen Tag! "
 }
