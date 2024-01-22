@@ -1,0 +1,41 @@
+{
+  "app": {
+    "base_language": "en",
+    "push": {
+      "source": [
+        {
+          "language": "en",
+          "file_format": "nested_json",
+          "path": "./react_json_sample/en/secondsourcefile.json",
+          "tag": "second"
+        },
+        {
+          "language": "en",
+          "file_format": "nested_json",
+          "path": "./react_json_sample/en/translations.json",
+          "tag": "first"
+        }
+      ]
+    },
+    "pull": {
+      "target": [
+        {
+          "exclude_languages": [
+            "en"
+          ],
+          "file_format": "nested_json",
+          "path": "./react_json_sample/<language>/<language>.json",
+          "tag": "second"
+        },
+        {
+          "exclude_languages": [
+            "en"
+          ],
+          "file_format": "nested_json",
+          "path": "./react_json_sample/<language>/<language>.json",
+          "tag": "first"
+        }
+      ]
+    }
+  }
+}
