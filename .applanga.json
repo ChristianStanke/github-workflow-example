@@ -24,7 +24,7 @@
             "en"
           ],
           "file_format": "nested_json",
-          "path": "./react_json_sample/<language>/<language>.json",
+          "path": "./react_json_sample/<language>/<language>-second.json",
           "tag": "Second"
         },
         {
