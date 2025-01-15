@@ -5,15 +5,15 @@
       "source": [
         {
           "language": "en",
-          "file_format": "react_nested_json",
+          "file_format": "react_simple_json",
           "path": "./react_json_sample/en/secondsourcefile.json",
-          "tag": "Second"
+          "tag": "SecondFile"
         },
         {
           "language": "en",
-          "file_format": "react_nested_json",
+          "file_format": "react_simple_json",
           "path": "./react_json_sample/en/translations.json",
-          "tag": "Translations"
+          "tag": "FirstFile"
         }
       ]
     },
@@ -23,17 +23,17 @@
           "exclude_languages": [
             "en"
           ],
-          "file_format": "react_nested_json",
-          "path": "./react_json_sample/<language>/<language>-Second.json",
-          "tag": "Second"
+          "file_format": "react_simple_json",
+          "path": "./react_json_sample/<language>/<language>_FirstFile.json",
+          "tag": "SecondFile"
         },
         {
           "exclude_languages": [
             "en"
           ],
-          "file_format": "react_nested_json",
-          "path": "./react_json_sample/<language>/<language>-Translation.json",
-          "tag": "Translations"
+          "file_format": "react_simple_json",
+          "path": "./react_json_sample/<language>/<language>_SecondFile.json",
+          "tag": "FirstFile"
         }
       ]
     }
